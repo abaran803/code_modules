@@ -1,0 +1,13 @@
+JS is syncronous, blocking and single-threaded language
+
+Just JavaScript is not enough
+
+We need new pieces which are outside of JavaScript to help us write asynchronous code
+
+For front-end, this is where web browsers come into play. For back-end, this is where Node.js comes into play
+
+Web browsers and Node.js define functions and APIs that allow us to register functions that should not be executed synchronously, and should instead be invoked asynchronously when some kind of event occurs
+
+For example, that could be the passage of time ( setTimeout or setlInterval), the user's interaction with the mouse (addEventListener), data being read from a file system or the arrival of data over the network (callbacks, Promises, async-await)
+
+You can let your code do several things at the same time without stopping or blocking your main thread
